@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "hashicorp-learn"
+ /* cloud {
+    organization = "TevCloud-CDP"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "sandbox-cdp"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
